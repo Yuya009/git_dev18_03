@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>myMemoPad</title>
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <link rel='stylesheet' href='css/reset.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>MemoPad</h1>
+  </header>
+  <main>
+    <section class="todo_all">
+      <div id="" class="todo">
+        <p class="sub_title">ToDo</p>
+        <ul id="todo_text">
+          <!-- ここにToDoのデータ挿入 -->
+        </ul>
+        <textarea id="memo" class="hide" placeholder="ここにテキストが入ります"></textarea>
+        <button id="memo_btn">＋ タスクを追加</button>
+        <button id="memo_clear">全部のタスクを削除</button>
+        <button id="memo_clear_solo" class="hide">このタスクを削除</button>
+        <button id="memo_add_btn" class="hide">タスクを追加する</button>
+        <button id="memo_move" class="hide">このタスクを「作業」に移動</button>
+        <button id="memo_cancel_btn" class="hide">キャンセル</button>
+
+
+      </div>
+      <div id="" class="working">
+        <p class="sub_title">作業中</p>
+        <ul id="working_text">
+          <!-- ここに作業中のデータ挿入 -->
+        </ul>
+        <textarea id="working_area" class="hide" placeholder="ここにテキストが入ります"></textarea>
+        <button id="working_btn">＋ タスクを追加</button>
+        <button id="working_clear">全部のタスクを削除</button>
+        <button id="working_clear_solo" class="hide">このタスクを削除</button>
+        <button id="working_add_btn" class="hide">タスクを追加する</button>
+        <button id="working_move" class="hide">このタスクを「完了」に移動</button>
+        <button id="working_cancel_btn" class="hide">キャンセル</button>
+
+      </div>
+      <div id="" class="done">
+        <p class="sub_title">完了</p>
+        <ul id="done_text">
+          <!-- ここに完了のデータ挿入 -->
+        </ul>
+        <textarea id="done_area" class="hide" placeholder="ここにテキストが入ります"></textarea>
+        <button id="done_btn">＋ タスクを追加</button>
+        <button id="done_clear">全部のタスクを削除</button>
+        <button id="done_clear_solo" class="hide">このタスクを削除</button>
+        <button id="done_add_btn" class="hide">タスクを追加する</button>
+        <button id="done_cancel_btn" class="hide">キャンセル</button>
+
+      </div>
+    </section>
+
+    <!-- <input type="text" id="key" placeholder="ここにタイトルが入ります">
+    <textarea id="memo" placeholder="ここにテキストが入ります"></textarea> -->
+  </main>
+  <script></script>
+  <script src="js/test.js"></script>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
